@@ -3,7 +3,9 @@ Campsite and Shuttle reservation helper (only adds to cart)
 
 Can run the scripts to reserve a campsite or shuttle and then be notified about the results through discord. This can be very useful since there are many cancellations of campsites 
 
-Will update code and give a better GUI later.
+Will update code and give a better GUI later if time permits. 
+
+(update: the ticketing system for the shuttle has changed to first come first serve basis. this code will still be useful for tracking campsite cancellations and openings based on your desired date range, and having those communicated to you through discord.)
 
 ### Environment Variables
 In the general utils file you can see several environment variables being loaded with load_dotenv().
